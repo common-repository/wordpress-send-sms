@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-20 11:32+0100\n"
+"PO-Revision-Date: 2012-04-20 11:34+0100\n"
+"Last-Translator: Equipe de développement <dev@eoxia.com>\n"
+"Language-Team: 54\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:3
+msgid "permission_user"
+msgstr "Droits sur les utilisateurs"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:4
+#: ../../includes/languages/wp-send-sms-orphelan.php:8
+msgid "permission_options"
+msgstr "Droits pour les options"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:5
+msgid "permission_message"
+msgstr "Droits pour les messages"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:6
+msgid "permission_user_list"
+msgstr "Droits sur les listes"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:7
+msgid "permission_histo"
+msgstr "Droits sur les historiques"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:9
+msgid "permission_documentation"
+msgstr "Droits pour la documentation"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:11
+msgid "permission_user_menu"
+msgstr "Droits pour le menu des utilisateurs"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:12
+#: ../../includes/languages/wp-send-sms-orphelan.php:16
+msgid "permission_options_menu"
+msgstr "Droits pour le menu des options"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:13
+msgid "permission_message_menu"
+msgstr "Droits pour le menu des messages"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:14
+msgid "permission_user_list_menu"
+msgstr "Droits pour le menu des listes d'utilisateurs"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:15
+msgid "permission_histo_menu"
+msgstr "Droits pour le menu des historiques"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:17
+msgid "permission_documentation_menu"
+msgstr "Droits pour le menu de la documentation"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:19
+msgid "sendsms_import_user_menu"
+msgstr "Accèder à l'import des utilisateurs"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:20
+msgid "sendsms_import_user"
+msgstr "Importer des utilisateurs"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:21
+msgid "sendsms_new_message"
+msgstr "Accèder à l'interface de rédaction des messages"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:22
+msgid "sendsms_send_message"
+msgstr "Envoyer un message"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:23
+msgid "sendsms_list"
+msgstr "Accèder au listing des listes"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:24
+msgid "sendsms_create_list"
+msgstr "Créer une liste"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:25
+msgid "sendsms_edit_list"
+msgstr "Editer une liste"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:26
+msgid "sendsms_delete_list"
+msgstr "Supprimer une liste"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:27
+msgid "sendsms_histo"
+msgstr "Accèder aux historiques des envoies de messages"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:28
+msgid "sendsms_documentation"
+msgstr "Accèder à la documentation"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:30
+msgid "sendsms_options"
+msgstr "Accèder aux options du plugin"
+
+#: ../../includes/languages/wp-send-sms-orphelan.php:31
+msgid "sendsms_save_options"
+msgstr "Enregistrer les options du plugin"
+
+#: ../../includes/libraries/config.class.php:42
+msgid "Erreur sur la requ&ecirc;te, veuillez r&eacute;essayer"
+msgstr "Erreur sur la requ&ecirc;te, veuillez r&eacute;essayer"
+
+#: ../../includes/libraries/config.class.php:46
+msgid "Exp&eacute;diteur incorecte"
+msgstr "Exp&eacute;diteur incorecte"
+
+#: ../../includes/libraries/config.class.php:51
+msgid "Veuillez remplir tous les champs"
+msgstr "Veuillez remplir tous les champs"
+
+#: ../../includes/libraries/config.class.php:72
+msgid "Cr&eacute;er un compte OVH"
+msgstr "Cr&eacute;er un compte OVH"
+
+#: ../../includes/libraries/config.class.php:82
+msgid "Configuration du compte"
+msgstr "Configuration du compte"
+
+#: ../../includes/libraries/config.class.php:86
+msgid "Nic OVH"
+msgstr "Nic OVH"
+
+#: ../../includes/libraries/config.class.php:89
+msgid "Pass OVH"
+msgstr "Pass OVH"
+
+#: ../../includes/libraries/config.class.php:92
+msgid "Compte SMS"
+msgstr "Compte SMS"
+
+#: ../../includes/libraries/config.class.php:95
+msgid "Exp&eacute;diteur"
+msgstr "Exp&eacute;diteur"
+
+#: ../../includes/libraries/config.class.php:96
+msgid "Pour que les sms soient correctement envoy&eacute;s vous devez s&eacute;lectionner un des choix existant dans la liste des exp&eacute;diteurs associ&eacute;s au compte sms ovh"
+msgstr "Pour que les sms soient correctement envoy&eacute;s vous devez s&eacute;lectionner un des choix existant dans la liste des exp&eacute;diteurs associ&eacute;s au compte sms ovh"
+
+#: ../../includes/libraries/config.class.php:100
+msgid "Fuseau horaire"
+msgstr "Fuseau horaire"
+
+#: ../../includes/libraries/config.class.php:112
+msgid "Modifier la configuration"
+msgstr "Modifier la configuration"
+
+#: ../../includes/libraries/doc.class.php:25
+msgid "Documentation modifi&eacute;e avec succ&eacute;s"
+msgstr "Documentation modifi&eacute;e avec succ&eacute;s"
+
+#: ../../includes/libraries/doc.class.php:28
+msgid "Impossible de modifier la documentation"
+msgstr "Impossible de modifier la documentation"
+
+#: ../../includes/libraries/doc.class.php:43
+msgid "Documentation ajout&eacute;e avec succ&eacute;s"
+msgstr "Documentation ajout&eacute;e avec succ&eacute;s"
+
+#: ../../includes/libraries/doc.class.php:46
+msgid "Impossible d'ajouter la documentation"
+msgstr "Impossible d'ajouter la documentation"
+
+#: ../../includes/libraries/doc.class.php:49
+msgid "Les champs <code>Nom de la page</code>, <code>URL de la page</code> et <code>Texte</code> sont obligatoires"
+msgstr "Les champs <code>Nom de la page</code>, <code>URL de la page</code> et <code>Texte</code> sont obligatoires"
+
+#: ../../includes/libraries/doc.class.php:56
+msgid "Documentation supprim&eacute;e avec succ&eacute;s"
+msgstr "Documentation supprim&eacute;e avec succ&eacute;s"
+
+#: ../../includes/libraries/doc.class.php:59
+#: ../../includes/libraries/doc.class.php:61
+msgid "Impossible de supprimer cette documentation"
+msgstr "Impossible de supprimer cette documentation"
+
+#: ../../includes/libraries/doc.class.php:101
+msgid "G&eacute;rer la documentation"
+msgstr "G&eacute;rer la documentation"
+
+#: ../../includes/libraries/doc.class.php:102
+#: ../../includes/libraries/liste.class.php:198
+msgid "Ajouter"
+msgstr "Ajouter"
+
+#: ../../includes/libraries/doc.class.php:104
+msgid "Cette page vous permet d'associer de la documentation &agrave; certaines pages de vos extensions."
+msgstr "Cette page vous permet d'associer de la documentation &agrave; certaines pages de vos extensions."
+
+#: ../../includes/libraries/doc.class.php:109
+msgid "Nom de la page"
+msgstr "Nom de la page"
+
+#: ../../includes/libraries/doc.class.php:110
+msgid "URL"
+msgstr "URL"
+
+#: ../../includes/libraries/doc.class.php:111
+msgid "Texte"
+msgstr "Texte"
+
+#: ../../includes/libraries/doc.class.php:112
+#: ../../includes/libraries/liste.class.php:208
+msgid "Date de cr&eacute;ation"
+msgstr "Date de cr&eacute;ation"
+
+#: ../../includes/libraries/doc.class.php:113
+#: ../../includes/libraries/liste.class.php:210
+msgid "Action"
+msgstr "Action"
+
+#: ../../includes/libraries/doc.class.php:122
+msgid "Acc&eacute;der &agrave; ce lien"
+msgstr "Acc&eacute;der &agrave; ce lien"
+
+#: ../../includes/libraries/doc.class.php:126
+#: ../../includes/libraries/liste.class.php:230
+msgid "&Eacute;diter"
+msgstr "&Eacute;diter"
+
+#: ../../includes/libraries/doc.class.php:127
+#: ../../includes/libraries/liste.class.php:233
+msgid "Supprimer"
+msgstr "Supprimer"
+
+#: ../../includes/libraries/doc.class.php:134
+msgid "Aucune documentation g&eacute;r&eacute;e"
+msgstr "Aucune documentation g&eacute;r&eacute;e"
+
+#: ../../includes/libraries/doc.class.php:166
+#: ../../includes/libraries/doc.class.php:211
+#: ../../includes/libraries/liste.class.php:102
+#: ../../includes/libraries/liste.class.php:378
+msgid "Revenir &agrave; la liste"
+msgstr "Revenir &agrave; la liste"
+
+#: ../../includes/libraries/doc.class.php:169
+msgid "Nom de la page document&eacute;e"
+msgstr "Nom de la page document&eacute;e"
+
+#: ../../includes/libraries/doc.class.php:172
+msgid "Correspond au nom de la page &agrave; documenter"
+msgstr "Correspond au nom de la page &agrave; documenter"
+
+#: ../../includes/libraries/doc.class.php:177
+msgid "URL de la page"
+msgstr "URL de la page"
+
+#: ../../includes/libraries/doc.class.php:181
+msgid "Correspond &agrave; l'URL de la page &agrave; documenter. Exemple&nbsp;: <code>http://www.monsite.com/wp-admin/tools.php?page="
+msgstr "Correspond &agrave; l'URL de la page &agrave; documenter. Exemple&nbsp;: <code>http://www.monsite.com/wp-admin/tools.php?page="
+
+#: ../../includes/libraries/doc.class.php:183
+#: ../../includes/libraries/doc.class.php:185
+msgid "Acc&eacute;der &agrave ce lien"
+msgstr "Acc&eacute;der &agrave ce lien"
+
+#: ../../includes/libraries/doc.class.php:210
+msgid "Suppression d'une documentation"
+msgstr "Suppression d'une documentation"
+
+#: ../../includes/libraries/doc.class.php:213
+msgid "Cette page vous permet de supprimer une documentation."
+msgstr "Cette page vous permet de supprimer une documentation."
+
+#: ../../includes/libraries/doc.class.php:215
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: ../../includes/libraries/doc.class.php:217
+msgid "Etes-vous certain de vouloir supprimer la documentation de la page"
+msgstr "Etes-vous certain de vouloir supprimer la documentation de la page"
+
+#: ../../includes/libraries/doc.class.php:221
+#: ../../includes/libraries/liste.class.php:271
+msgid "Confirmer la suppression"
+msgstr "Confirmer la suppression"
+
+#: ../../includes/libraries/doc.class.php:222
+#: ../../includes/libraries/liste.class.php:272
+msgid "Annuler"
+msgstr "Annuler"
+
+#: ../../includes/libraries/histo.class.php:14
+msgid "Trier par"
+msgstr "Trier par"
+
+#: ../../includes/libraries/histo.class.php:22
+msgid "Tout"
+msgstr "Tout"
+
+#: ../../includes/libraries/histo.class.php:25
+#: ../../includes/libraries/histo.class.php:88
+#: ../../includes/libraries/histo.class.php:159
+#: ../../includes/libraries/histo.class.php:236
+#: ../../includes/libraries/histo.class.php:314
+#: ../../includes/libraries/init.class.php:11
+msgid "Message"
+msgstr "Message"
+
+#: ../../includes/libraries/histo.class.php:28
+msgid "Utilisateur"
+msgstr "Utilisateur"
+
+#: ../../includes/libraries/histo.class.php:31
+#: ../../includes/libraries/histo.class.php:85
+#: ../../includes/libraries/histo.class.php:156
+#: ../../includes/libraries/histo.class.php:233
+#: ../../includes/libraries/histo.class.php:311
+msgid "Date"
+msgstr "Date"
+
+#: ../../includes/libraries/histo.class.php:81
+#: ../../includes/libraries/histo.class.php:152
+#: ../../includes/libraries/histo.class.php:229
+#: ../../includes/libraries/histo.class.php:307
+#: ../../includes/libraries/liste.class.php:570
+#: ../../includes/libraries/user.class.php:11
+#: ../../includes/libraries/user.class.php:311
+msgid "Nom"
+msgstr "Nom"
+
+#: ../../includes/libraries/histo.class.php:82
+#: ../../includes/libraries/histo.class.php:153
+#: ../../includes/libraries/histo.class.php:230
+#: ../../includes/libraries/histo.class.php:308
+#: ../../includes/libraries/user.class.php:15
+#: ../../includes/libraries/user.class.php:311
+msgid "Pr&eacute;nom"
+msgstr "Pr&eacute;nom"
+
+#: ../../includes/libraries/histo.class.php:83
+#: ../../includes/libraries/histo.class.php:154
+#: ../../includes/libraries/histo.class.php:231
+#: ../../includes/libraries/histo.class.php:309
+#: ../../includes/libraries/user.class.php:19
+#: ../../includes/libraries/user.class.php:311
+msgid "T&eacute;l&eacute;phone"
+msgstr "T&eacute;l&eacute;phone"
+
+#: ../../includes/libraries/histo.class.php:84
+#: ../../includes/libraries/histo.class.php:155
+#: ../../includes/libraries/histo.class.php:232
+#: ../../includes/libraries/histo.class.php:310
+msgid "Envoy&eacute; depuis"
+msgstr "Envoy&eacute; depuis"
+
+#: ../../includes/libraries/histo.class.php:86
+#: ../../includes/libraries/histo.class.php:157
+#: ../../includes/libraries/histo.class.php:234
+#: ../../includes/libraries/histo.class.php:312
+msgid "Envoi pr&eacute;vu le"
+msgstr "Envoi pr&eacute;vu le"
+
+#: ../../includes/libraries/histo.class.php:87
+#: ../../includes/libraries/histo.class.php:158
+#: ../../includes/libraries/histo.class.php:235
+#: ../../includes/libraries/histo.class.php:313
+msgid "&Eacute;tat"
+msgstr "&Eacute;tat"
+
+#: ../../includes/libraries/histo.class.php:103
+#: ../../includes/libraries/histo.class.php:174
+#: ../../includes/libraries/histo.class.php:251
+#: ../../includes/libraries/histo.class.php:329
+msgid "Envoy&eacute;"
+msgstr "Envoy&eacute;"
+
+#: ../../includes/libraries/histo.class.php:106
+#: ../../includes/libraries/histo.class.php:177
+#: ../../includes/libraries/histo.class.php:254
+#: ../../includes/libraries/histo.class.php:332
+msgid "En attente"
+msgstr "En attente"
+
+#: ../../includes/libraries/histo.class.php:109
+#: ../../includes/libraries/histo.class.php:134
+#: ../../includes/libraries/histo.class.php:180
+#: ../../includes/libraries/histo.class.php:204
+#: ../../includes/libraries/histo.class.php:257
+#: ../../includes/libraries/histo.class.php:281
+#: ../../includes/libraries/histo.class.php:335
+#: ../../includes/libraries/histo.class.php:360
+msgid "Erreur d'envoi"
+msgstr "Erreur d'envoi"
+
+#: ../../includes/libraries/histo.class.php:120
+#: ../../includes/libraries/histo.class.php:267
+#: ../../includes/libraries/histo.class.php:346
+msgid "liste des utilisateurs"
+msgstr "liste des utilisateurs"
+
+#: ../../includes/libraries/histo.class.php:190
+msgid "Liste des utilisateurs"
+msgstr "Liste des utilisateurs"
+
+#: ../../includes/libraries/init.class.php:12
+msgid "Liste d'envoi"
+msgstr "Liste d'envoi"
+
+#: ../../includes/libraries/init.class.php:13
+msgid "Historique"
+msgstr "Historique"
+
+#: ../../includes/libraries/init.class.php:15
+msgid "Send-SMS"
+msgstr "Send-SMS"
+
+#: ../../includes/libraries/init.class.php:16
+msgid "Import utilisateur Send-SMS"
+msgstr "Import utilisateur Send-SMS"
+
+#: ../../includes/libraries/init.class.php:17
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../../includes/libraries/liste.class.php:14
+msgid "Liste cr&eacute;e avec succ&eacute;s"
+msgstr "Liste cr&eacute;e avec succ&eacute;s"
+
+#: ../../includes/libraries/liste.class.php:15
+msgid "Modifications enregistr&eacute;es avec succ&eacute;s"
+msgstr "Modifications enregistr&eacute;es avec succ&eacute;s"
+
+#: ../../includes/libraries/liste.class.php:16
+msgid "Liste supprim&eacutee avec succ&eacute;s"
+msgstr "Liste supprim&eacutee avec succ&eacute;s"
+
+#: ../../includes/libraries/liste.class.php:52
+msgid "Veuillez entrer un titre de liste."
+msgstr "Veuillez entrer un titre de liste."
+
+#: ../../includes/libraries/liste.class.php:89
+msgid "Erreur d&eacute;envoi"
+msgstr "Erreur d&eacute;envoi"
+
+#: ../../includes/libraries/liste.class.php:93
+msgid "Vous devez selectionner au moins un utilisateur pour une liste d'envoi."
+msgstr "Vous devez selectionner au moins un utilisateur pour une liste d'envoi."
+
+#: ../../includes/libraries/liste.class.php:102
+msgid "Nouvelle liste d'envoi"
+msgstr "Nouvelle liste d'envoi"
+
+#: ../../includes/libraries/liste.class.php:108
+#: ../../includes/libraries/liste.class.php:485
+msgid "Nouvelle liste"
+msgstr "Nouvelle liste"
+
+#: ../../includes/libraries/liste.class.php:114
+#: ../../includes/libraries/liste.class.php:205
+msgid "Nom de la liste"
+msgstr "Nom de la liste"
+
+#: ../../includes/libraries/liste.class.php:119
+#: ../../includes/libraries/liste.class.php:207
+#: ../../includes/libraries/liste.class.php:395
+#: ../../includes/libraries/liste.class.php:570
+msgid "Description"
+msgstr "Description"
+
+#: ../../includes/libraries/liste.class.php:128
+#: ../../includes/libraries/liste.class.php:403
+msgid "Enregistrer"
+msgstr "Enregistrer"
+
+#: ../../includes/libraries/liste.class.php:129
+#: ../../includes/libraries/liste.class.php:404
+msgid "Retour"
+msgstr "Retour"
+
+#: ../../includes/libraries/liste.class.php:135
+msgid "Vous n'&ecirc;tes pas autoris&eacute; &agrave; cr&eacute;er des listes"
+msgstr "Vous n'êtes pas autorisé à créer des listes"
+
+#: ../../includes/libraries/liste.class.php:196
+msgid "Listes d'envois disponible"
+msgstr "Listes d'envois disponible"
+
+#: ../../includes/libraries/liste.class.php:206
+msgid "Nombre d'utilisateurs"
+msgstr "Nombre d'utilisateurs"
+
+#: ../../includes/libraries/liste.class.php:209
+msgid "Date de modification"
+msgstr "Date de modification"
+
+#: ../../includes/libraries/liste.class.php:293
+msgid "Erreur sur la requ&ecirc;te, veuillez r&eacute;essayer."
+msgstr "Erreur sur la requ&ecirc;te, veuillez r&eacute;essayer."
+
+#: ../../includes/libraries/liste.class.php:298
+msgid "Vous n'&ecirc;tes pas autoris&eacute; &agrave; supprimer des listes"
+msgstr "Vous n'êtes pas autorisé à supprimer des listes"
+
+#: ../../includes/libraries/liste.class.php:378
+msgid "&Eacute;dition d'une liste"
+msgstr "&Eacute;dition d'une liste"
+
+#: ../../includes/libraries/liste.class.php:386
+msgid "Modification"
+msgstr "Modification"
+
+#: ../../includes/libraries/liste.class.php:390
+msgid "Titre de la liste"
+msgstr "Titre de la liste"
+
+#: ../../includes/libraries/liste.class.php:410
+msgid "Vous n'&ecirc;tes pas autoris&eacute; &agrave; &eacute;diter des listes"
+msgstr "Vous n'êtes pas autorisé à éditer des listes"
+
+#: ../../includes/libraries/liste.class.php:424
+msgid "S&eacute;lectionner des listes d'envoi"
+msgstr "S&eacute;lectionner des listes d'envoi"
+
+#: ../../includes/libraries/liste.class.php:447
+#: ../../includes/libraries/liste.class.php:489
+#: ../../includes/libraries/user.class.php:190
+#: ../../includes/libraries/user.class.php:230
+msgid "Cliquez pour supprimer"
+msgstr "Cliquez pour supprimer"
+
+#: ../../includes/libraries/liste.class.php:455
+#: ../../includes/libraries/liste.class.php:518
+#: ../../includes/libraries/liste.class.php:526
+#: ../../includes/libraries/liste.class.php:672
+msgid "Aucune liste affect&eacute;e"
+msgstr "Aucune liste affect&eacute;e"
+
+#: ../../includes/libraries/liste.class.php:469
+msgid "Rechercher dans les listes d'envoi"
+msgstr "Rechercher dans les listes d'envoi"
+
+#: ../../includes/libraries/liste.class.php:538
+#: ../../includes/libraries/liste.class.php:546
+msgid "Rechercher dans les listes"
+msgstr "Rechercher dans les listes"
+
+#: ../../includes/libraries/liste.class.php:570
+msgid "Nb."
+msgstr "Nb."
+
+#: ../../includes/libraries/liste.class.php:570
+msgid "D&eacute;tails"
+msgstr "D&eacute;tails"
+
+#: ../../includes/libraries/liste.class.php:686
+#: ../../includes/libraries/user.class.php:410
+msgid "Aucun r&eacute;sultat trouv&eacute;"
+msgstr "Aucun r&eacute;sultat trouv&eacute;"
+
+#: ../../includes/libraries/message.class.php:24
+msgid ""
+"Vous devez d'abord entrer les informations de votre compte OVH pour pouvoir envoyer des SMS.<br/>\n"
+"\t\t\t\t\t   Veuillez vous rendre &agrave; la page de configuration."
+msgstr ""
+"Vous devez d'abord entrer les informations de votre compte OVH pour pouvoir envoyer des SMS.<br/>\n"
+"\t\t\t\t\t   Veuillez vous rendre &agrave; la page de configuration."
+
+#: ../../includes/libraries/message.class.php:87
+msgid "La date que vous avez sp&eacute;cifi&eacute;e est d&eacute;j&agrave; pass&eacute;e."
+msgstr "La date que vous avez sp&eacute;cifi&eacute;e est d&eacute;j&agrave; pass&eacute;e."
+
+#: ../../includes/libraries/message.class.php:92
+msgid "La date sp&eacute;cifi&eacute;e n'est pas au bon format."
+msgstr "La date sp&eacute;cifi&eacute;e n'est pas au bon format."
+
+#: ../../includes/libraries/message.class.php:102
+msgid "Vous devez choisir au moins un destinataire"
+msgstr "Vous devez choisir au moins un destinataire"
+
+#: ../../includes/libraries/message.class.php:107
+msgid "Il n'y a pas de message &agrave; envoyer"
+msgstr "Il n'y a pas de message &agrave; envoyer"
+
+#: ../../includes/libraries/message.class.php:138
+msgid "Envoyer"
+msgstr "Envoyer"
+
+#: ../../includes/libraries/message.class.php:154
+msgid "Envoyer le message"
+msgstr "Envoyer le message"
+
+#: ../../includes/libraries/message.class.php:162
+msgid "Vous n'&ecirc;tes pas autoris&eacute; &agrave; envoyer les messages"
+msgstr "Vous n'êtes pas autorisé à envoyer les messages"
+
+#: ../../includes/libraries/message.class.php:172
+msgid "Votre message"
+msgstr "Votre message"
+
+#: ../../includes/libraries/message.class.php:180
+#: ../../includes/libraries/message.class.php:201
+msgid "caract&egrave;re"
+msgstr "caract&egrave;re"
+
+#: ../../includes/libraries/message.class.php:181
+msgid "SMS"
+msgstr "SMS"
+
+#: ../../includes/libraries/message.class.php:199
+msgid "caract&egrave;res"
+msgstr "caract&egrave;res"
+
+#: ../../includes/libraries/permission.class.php:85
+msgid "Droits d'acc&egrave;s de l'utilisateur pour l'utilitaire d'envoie de sms"
+msgstr "Droits d'accés de l'utilisateur pour l'utilitaire d'envoie de sms"
+
+#: ../../includes/libraries/permission.class.php:149
+msgid "L&eacute;gende"
+msgstr "L&eacute;gende"
+
+#: ../../includes/libraries/permission.class.php:151
+msgid "Le droit provient du r&ocirc;le de l'utilisateur et ne peut &ecirc;tre supprim&eacute; depuis cette interface"
+msgstr "Le droit provient du rôle de l'utilisateur et ne peut &ecirc;tre supprimé depuis cette interface"
+
+#: ../../includes/libraries/permission.class.php:152
+msgid "Permission ajout&eacute;e en plus de celle du r&ocirc;le de l'utilisateur"
+msgstr "Permission ajoutée en plus de celle du rôle de l'utilisateur"
+
+#: ../../includes/libraries/permission.class.php:159
+msgid "Raccourci d'attribution"
+msgstr "Raccourci d'attribution"
+
+#: ../../includes/libraries/permission.class.php:161
+msgid "Tous les droits"
+msgstr "Tous les droits"
+
+#: ../../includes/libraries/permission.class.php:161
+msgid "Aucun droit"
+msgstr "Aucun droit"
+
+#: ../../includes/libraries/permission.class.php:162
+msgid "Tous les menus"
+msgstr "Tous les menus"
+
+#: ../../includes/libraries/permission.class.php:162
+msgid "Aucun menu"
+msgstr "Aucun menu"
+
+#: ../../includes/libraries/permission.class.php:163
+msgid "Tous les droits en lecture"
+msgstr "Tous les droits en lecture"
+
+#: ../../includes/libraries/permission.class.php:163
+msgid "Aucun droit en lecture"
+msgstr "Aucun droit en lecture"
+
+#: ../../includes/libraries/permission.class.php:164
+msgid "Tous les droits en &eacute;criture"
+msgstr "Tous les droits en &eacute;criture"
+
+#: ../../includes/libraries/permission.class.php:164
+msgid "Aucun droit en &eacute;criture"
+msgstr "Aucun droit en &eacute;criture"
+
+#: ../../includes/libraries/permission.class.php:165
+msgid "Tous les droits en suppression"
+msgstr "Tous les droits en suppression"
+
+#: ../../includes/libraries/permission.class.php:165
+msgid "Aucun droit en suppression"
+msgstr "Aucun droit en suppression"
+
+#: ../../includes/libraries/permission.class.php:177
+#: ../../includes/libraries/permission.class.php:190
+#: ../../includes/libraries/permission.class.php:194
+msgid "permission_"
+msgstr "permission_"
+
+#: ../../includes/libraries/permission.class.php:178
+#: ../../includes/libraries/permission.class.php:199
+msgid "Tout cocher"
+msgstr "Tout cocher"
+
+#: ../../includes/libraries/permission.class.php:178
+#: ../../includes/libraries/permission.class.php:199
+msgid "Tout d&eacute;cocher"
+msgstr "Tout d&eacute;cocher"
+
+#: ../../includes/libraries/user.class.php:179
+msgid "S&eacute;lectionner des utilisateurs"
+msgstr "S&eacute;lectionner des utilisateurs"
+
+#: ../../includes/libraries/user.class.php:196
+#: ../../includes/libraries/user.class.php:264
+#: ../../includes/libraries/user.class.php:396
+msgid "Aucun utilisateur affect&eacute;"
+msgstr "Aucun utilisateur affect&eacute;"
+
+#: ../../includes/libraries/user.class.php:211
+#: ../../includes/libraries/user.class.php:276
+#: ../../includes/libraries/user.class.php:284
+msgid "Rechercher dans la liste des utilisateurs"
+msgstr "Rechercher dans la liste des utilisateurs"
+
+#: ../../includes/libraries/user.class.php:223
+msgid "cochez tout"
+msgstr "cochez tout"
+
+#: ../../includes/libraries/user.class.php:224
+msgid "d&eacute;cochez tout"
+msgstr "d&eacute;cochez tout"
+
+#: ../../includes/libraries/user.class.php:235
+msgid "Nouvel utilisateur"
+msgstr "Nouvel utilisateur"
+
+#: ../../includes/libraries/user.class.php:311
+msgid "Inscription"
+msgstr "Inscription"
+
+#: ../../includes/libraries/user.class.php:428
+msgid "Telephone"
+msgstr "Telephone"
+
+#: ../../includes/libraries/user.class.php:429
+msgid "Au format international (exemple +336XXXXXXXX)"
+msgstr "Au format international (exemple +336XXXXXXXX)"
+
+#: ../../includes/libraries/user.class.php:465
+msgid "Aucun utilisateurs n'a &eacute;t&eacute; ajout&eacute; depuis le champs texte"
+msgstr "Aucun utilisateurs n'a &eacute;t&eacute; ajout&eacute; depuis le champs texte"
+
+#: ../../includes/libraries/user.class.php:476
+#: ../../includes/libraries/user.class.php:479
+#, php-format
+msgid "Le fichier que vous avez envoy&eacute; est trop lourd: %s taille autoris&eacute;e %s"
+msgstr "Le fichier que vous avez envoy&eacute; est trop lourd: %s taille autoris&eacute;e %s"
+
+#: ../../includes/libraries/user.class.php:482
+msgid "Le fichier que vous avez envoy&eacute; n'a pas &eacute;t&eacute; compl&eacute;tement envoy&eacute;"
+msgstr "Le fichier que vous avez envoy&eacute; n'a pas &eacute;t&eacute; compl&eacute;tement envoy&eacute;"
+
+#: ../../includes/libraries/user.class.php:485
+msgid "Une erreur est survenue lors de l'envoie du fichier"
+msgstr "Une erreur est survenue lors de l'envoie du fichier"
+
+#: ../../includes/libraries/user.class.php:489
+#, php-format
+msgid "Le fichier %s n'a pas pu &ecirc;tre envoy&eacute;"
+msgstr "Le fichier %s n'a pas pu &ecirc;tre envoy&eacute;"
+
+#: ../../includes/libraries/user.class.php:577
+#, php-format
+msgid "L'utilisateur de la ligne %s n'a pas pu &ecirc;tre ajout&eacute;"
+msgstr "L'utilisateur de la ligne %s n'a pas pu &ecirc;tre ajout&eacute;"
+
+#: ../../includes/libraries/user.class.php:599
+#, php-format
+msgid "%s utilisateur a &eacute;t&eacute; cr&eacute;&eacute;"
+msgstr "%s utilisateur a &eacute;t&eacute; cr&eacute;&eacute;"
+
+#: ../../includes/libraries/user.class.php:601
+#, php-format
+msgid "%s utilisateurs ont &eacute;t&eacute; cr&eacute;&eacute;s"
+msgstr "%s utilisateurs ont &eacute;t&eacute; cr&eacute;&eacute;s"
+
+#: ../../includes/libraries/user.class.php:604
+msgid "L'import s'est termin&eacute; avec succ&eacute;s. Veuillez trouver le r&eacute;sultat ci-dessous"
+msgstr "L'import s'est termin&eacute; avec succ&eacute;s. Veuillez trouver le r&eacute;sultat ci-dessous"
+
+#: ../../includes/libraries/user.class.php:608
+msgid "Les nouveaux utilisateurs recevront leurs mot de passe par email"
+msgstr "Les nouveaux utilisateurs recevront leurs mot de passe par email"
+
+#: ../../includes/libraries/user.class.php:614
+msgid "Les adresses email des lignes suivantes sont invalides"
+msgstr "Les adresses email des lignes suivantes sont invalides"
+
+#: ../../includes/libraries/user.class.php:614
+msgid "L'adresse email de la ligne suivante est invalide"
+msgstr "L'adresse email de la ligne suivante est invalide"
+
+#: ../../includes/libraries/user.class.php:621
+msgid "Les adresses email des lignes suivantes sont d&eacute;j&agrave; utilis&eacute;es"
+msgstr "Les adresses email des lignes suivantes sont déjà utilisées"
+
+#: ../../includes/libraries/user.class.php:621
+msgid "L'adresse email de la ligne suivante est d&eacute;j&agrave; utilis&eacute;e"
+msgstr "L'adresse email de la ligne suivante est déjà utilisée"
+
+#: ../../includes/libraries/user.class.php:629
+msgid "Les identifiants des lignes suivantes sont invalides"
+msgstr "Les identifiants des lignes suivantes sont invalides"
+
+#: ../../includes/libraries/user.class.php:629
+msgid "L'identifiant de la ligne suivante est invalide"
+msgstr "L'identifiant de la ligne suivante est invalide"
+
+#: ../../includes/libraries/user.class.php:636
+msgid "Les identifiants des lignes suivantes sont d&eacute;j&agrave; utilis&eacute;s"
+msgstr "Les identifiants des lignes suivantes sont déjà utilisés"
+
+#: ../../includes/libraries/user.class.php:636
+msgid "L'identifiant de la ligne suivante est d&eacute;j&agrave; utilis&eacute;"
+msgstr "L'identifiant de la ligne suivante est déjà utilisé"
+
+#: ../../includes/libraries/user.class.php:644
+msgid "Les num&eacute;ros de t&eacute;l&eacute;phone des lignes suivantes sont invalides"
+msgstr "Les numéros de téléphone des lignes suivantes sont invalides"
+
+#: ../../includes/libraries/user.class.php:644
+msgid "Le num&eacute;ro de t&eacute;l&eacute;phone de la ligne suivante est invalide"
+msgstr "Le numéro de téléphone de la ligne suivante est invalide"
+
+#: ../../includes/libraries/user.class.php:651
+msgid "Les num&eacute;ros de t&eacute;l&eacute;phone des lignes suivantes sont d&eacute;j&agrave; utilis&eacute;s"
+msgstr "Les numéros de téléphone des lignes suivantes sont déjà utilisés"
+
+#: ../../includes/libraries/user.class.php:651
+msgid "Le num&eacute;ro de t&eacute;l&eacute;phone de la ligne suivante est d&eacute;j&agrave; utilis&eacute;"
+msgstr "Le numéro de téléphone de la ligne suivante est déjà utilisé"
+
+#: ../../includes/libraries/user.class.php:658
+msgid "Des erreurs sont survenues. Veuillez trouver la liste ci-dessous"
+msgstr "Des erreurs sont survenues. Veuillez trouver la liste ci-dessous"
+
+#: ../../includes/libraries/user.class.php:667
+msgid "Import d'utilisateurs pour send sms"
+msgstr "Import d'utilisateurs pour send sms"
+
+#: ../../includes/libraries/user.class.php:796
+msgid "Ajout rapide d'utilisateurs"
+msgstr "Ajout rapide d'utilisateurs"
+
+#: ../../includes/libraries/user.class.php:799
+msgid "Informations obligatoires"
+msgstr "Informations obligatoires"
+
+#: ../../includes/libraries/user.class.php:806
+msgid "domaine de l'adresse email"
+msgstr "domaine de l'adresse email"
+
+#: ../../includes/libraries/user.class.php:807
+msgid "adresse.email"
+msgstr "adresse.email"
+
+#: ../../includes/libraries/user.class.php:810
+msgid "mot de passe par d&eacute;faut"
+msgstr "mot de passe par d&eacute;faut"
+
+#: ../../includes/libraries/user.class.php:812
+msgid "Laissez vide pour un mot de passe al&eacute;atoire"
+msgstr "Laissez vide pour un mot de passe al&eacute;atoire"
+
+#: ../../includes/libraries/user.class.php:816
+msgid "Envoyer le mot de passe aux utilisateurs."
+msgstr "Envoyer le mot de passe aux utilisateurs."
+
+#: ../../includes/libraries/user.class.php:819
+msgid "(Peut ne pas fonctionner sur certains serveurs)"
+msgstr "(Peut ne pas fonctionner sur certains serveurs)"
+
+#: ../../includes/libraries/user.class.php:823
+#: ../../includes/libraries/user.class.php:899
+msgid "nom"
+msgstr "nom"
+
+#: ../../includes/libraries/user.class.php:827
+#: ../../includes/libraries/user.class.php:899
+msgid "prenom"
+msgstr "prenom"
+
+#: ../../includes/libraries/user.class.php:831
+#: ../../includes/libraries/user.class.php:898
+#: ../../includes/libraries/user.class.php:899
+msgid "email"
+msgstr "email"
+
+#: ../../includes/libraries/user.class.php:832
+msgid "Vous pouvez remplir le champs \"Domaine de l'adresse email\" pour que vos emails soient automatique cr&eacute;&eacute;s"
+msgstr "Vous pouvez remplir le champs \"Domaine de l'adresse email\" pour que vos emails soient automatique cr&eacute;&eacute;s"
+
+#: ../../includes/libraries/user.class.php:837
+msgid "R&ocirc;le pour les utilisateurs"
+msgstr "R&ocirc;le pour les utilisateurs"
+
+#: ../../includes/libraries/user.class.php:838
+msgid "Si aucun r&ocirc;le n'a &eacute;t&eacute; d&eacute;fini dans le fichier"
+msgstr "Si aucun r&ocirc;le n'a &eacute;t&eacute; d&eacute;fini dans le fichier"
+
+#: ../../includes/libraries/user.class.php:873
+msgid "Ajouter &agrave; la liste des utilisateurs &agrave; importer"
+msgstr "Ajouter &agrave; la liste des utilisateurs &agrave; importer"
+
+#: ../../includes/libraries/user.class.php:873
+msgid "Merci de remplir les champs marqu&eacute;s en rouge"
+msgstr "Merci de remplir les champs marqu&eacute;s en rouge"
+
+#: ../../includes/libraries/user.class.php:883
+#: ../../includes/libraries/user.class.php:918
+msgid "Importer les utilisateurs"
+msgstr "Importer les utilisateurs"
+
+#: ../../includes/libraries/user.class.php:893
+msgid "Ajout d'utilisateur depuis un fichier"
+msgstr "Ajout d'utilisateur depuis un fichier"
+
+#: ../../includes/libraries/user.class.php:896
+msgid "Vous pouvez t&eacute;l&eacute;charger le fichier pour construire l'import ici"
+msgstr "Vous pouvez t&eacute;l&eacute;charger le fichier pour construire l'import ici"
+
+#: ../../includes/libraries/user.class.php:897
+msgid "Chaque ligne devra respecter le format ci-apr&egrave;s&nbsp;:"
+msgstr "Chaque ligne devra respecter le format ci-apr&egrave;s&nbsp;:"
+
+#: ../../includes/libraries/user.class.php:898
+msgid "Les champs identifiants et email sont obligatoires."
+msgstr "Les champs identifiants et email sont obligatoires."
+
+#: ../../includes/libraries/user.class.php:898
+msgid "Vous n'&ecirc;tes pas oblig&eacute; de renseigner tous les champs mais tous les s&eacute;parateur doivent &ecirc;tre pr&eacute;sent."
+msgstr "Vous n'&ecirc;tes pas oblig&eacute; de renseigner tous les champs mais tous les s&eacute;parateur doivent &ecirc;tre pr&eacute;sent."
+
+#: ../../includes/libraries/user.class.php:898
+msgid "Exemple&nbsp;"
+msgstr "Exemple&nbsp;"
+
+#: ../../includes/libraries/user.class.php:898
+#: ../../includes/libraries/user.class.php:899
+msgid "identifiant"
+msgstr "identifiant"
+
+#: ../../includes/libraries/user.class.php:898
+#: ../../includes/libraries/user.class.php:899
+msgid "telephone"
+msgstr "telephone"
+
+#: ../../includes/libraries/user.class.php:899
+msgid "mot de passe"
+msgstr "mot de passe"
+
+#: ../../includes/libraries/user.class.php:899
+msgid "role"
+msgstr "role"
+
+#: ../../includes/libraries/user.class.php:905
+msgid "S&eacute;parateur de champs"
+msgstr "S&eacute;parateur de champs"
+
+#: ../../includes/libraries/user.class.php:912
+msgid "Vous pouvez envoyer un fichier contenant les utilisateurs &agrave; cr&eacute;er (extension autoris&eacute;e *.odt, *.csv, *.txt)"
+msgstr "Vous pouvez envoyer un fichier contenant les utilisateurs &agrave; cr&eacute;er (extension autoris&eacute;e *.odt, *.csv, *.txt)"
+
+#~ msgid "Importer des utilisateurs"
+#~ msgstr "Importer des utilisateurs"
+
+#~ msgid "L'adresse email <b>"
+#~ msgstr "L'adresse email <b>"
+
+#~ msgid "L'identifiant <b>"
+#~ msgstr "L'identifiant <b>"
+
+#~ msgid "Le num&eacute;ro de telephone <b>"
+#~ msgstr "Le num&eacute;ro de telephone <b>"
+
+#~ msgid "L'import s'est termin&eacute; avec succ&eacute;s."
+#~ msgstr "L'import s'est termin&eacute; avec succ&eacute;s."
+
+#~ msgid "Domaine de l'adresse email (sans le @)"
+#~ msgstr "Domaine de l'adresse email (sans le @)"
+
+#~ msgid "Prenom"
+#~ msgstr "Prenom"
+
+#~ msgid "Mot de passe par d&eacute;faut"
+#~ msgstr "Mot de passe par d&eacute;faut"
+
+#~ msgid "Utilisateurs &agrave; importer"
+#~ msgstr "Utilisateurs &agrave; importer"
+
+#~ msgid ""
+#~ "Vous pouvez entrer directement le utilisateurs que vous souhaitez "
+#~ "cr&eacute;er ici.<br/>Chaque utilisateur sera s&eacute;par&eacute; par un "
+#~ "retour &agrave; la ligne."
+#~ msgstr ""
+#~ "Vous pouvez entrer directement le utilisateurs que vous souhaitez "
+#~ "cr&eacute;er ici.<br/>Chaque utilisateur sera s&eacute;par&eacute; par un "
+#~ "retour &agrave; la ligne."
+
+#~ msgid "Sp&eacute;cifications pour le fichier"
+#~ msgstr "Sp&eacute;cifications pour le fichier"
+
+#~ msgid ""
+#~ "Chaque ligne de d&eacute;finition devra respecter le format ci-apr&egrave;"
+#~ "s&nbsp;:"
+#~ msgstr ""
+#~ "Chaque ligne de d&eacute;finition devra respecter le format ci-apr&egrave;"
+#~ "s&nbsp;:"
+
+#~ msgid "Champs suppl&eacute;mentaires"
+#~ msgstr "Champs suppl&eacute;mentaires"
+
+#~ msgid "n&ordm; immatriculation"
+#~ msgstr "n&ordm; immatriculation"
+
+#~ msgid "cl&eacute; immatriculation"
+#~ msgstr "cl&eacute; immatriculation"
+
+#~ msgid "date de naissance"
+#~ msgstr "date de naissance"
+
+#~ msgid "sexe"
+#~ msgstr "sexe"
+
+#~ msgid "nationalit&eacute;"
+#~ msgstr "nationalit&eacute;"
+
+#~ msgid "adresse 1"
+#~ msgstr "adresse 1"
+
+#~ msgid "adresse 2"
+#~ msgstr "adresse 2"
+
+#~ msgid "code postal"
+#~ msgstr "code postal"
+
+#~ msgid "ville"
+#~ msgstr "ville"
+
+#~ msgid "date embauche"
+#~ msgstr "date embauche"
+
+#~ msgid "profession"
+#~ msgstr "profession"
+
+#~ msgid "qualification professionnelle"
+#~ msgstr "qualification professionnelle"
+
+#~ msgid "societe d'assurance"
+#~ msgstr "societe d'assurance"
+
+#~ msgid "Envoi en diff&eacute;r&eacute; pr&eacute;vu pour le"
+#~ msgstr "Envoi en diff&eacute;r&eacute; pr&eacute;vu pour le"
+
+#~ msgid "Confimer la suppression de la liste "
+#~ msgstr "Confimer la suppression de la liste "
+
+#~ msgid "Utilisateurs"
+#~ msgstr "Utilisateurs"
+
+#~ msgid "Votre demande &agrave; &eacute;t&eacute; prise en compte"
+#~ msgstr "Votre demande &agrave; &eacute;t&eacute; prise en compte"
+
+#~ msgid "-&nbsp;et&nbsp;/&nbsp;ou&nbsp;-"
+#~ msgstr "-&nbsp;et&nbsp;/&nbsp;ou&nbsp;-"
+
+#~ msgid "Modifier"
+#~ msgstr "Modifier"
+
+#~ msgid "Valider"
+#~ msgstr "Valider"
+
+#~ msgid "Ajouter une liste"
+#~ msgstr "Ajouter une liste"
+
+#~ msgid "Le temps en minute doit etre de type entier."
+#~ msgstr "Le temps en minute doit etre de type entier."
+
+#~ msgid "La date d\\'envoi doit se placer dans la futur."
+#~ msgstr "La date d\\'envoi doit se placer dans la futur."
+
+#~ msgid ""
+#~ "Le jour, le mois, l\\'ann&eacute;e, l\\'heure ou les minutes ne sont pas "
+#~ "au bon format."
+#~ msgstr ""
+#~ "Le jour, le mois, l\\'ann&eacute;e, l\\'heure ou les minutes ne sont pas "
+#~ "au bon format."
+
+#~ msgid ""
+#~ "Message envoy&eacute; (ou prit en compte en tant que sms diff&eacute;"
+#~ "r&eacute;)"
+#~ msgstr ""
+#~ "Message envoy&eacute; (ou prit en compte en tant que sms diff&eacute;"
+#~ "r&eacute;)"
+
+#~ msgid "Nombre de SMS"
+#~ msgstr "Nombre de SMS"
+
+#~ msgid "Ajouter un utilisateur"
+#~ msgstr "Ajouter un utilisateur"

@@ -1,0 +1,385 @@
+/* Feuille de style SendSMS */
+
+#titrepage h1{
+	padding-top: 6px;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+#tableauUser{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#tableauUser .edit{
+	width: 29px;
+	height: 29px;
+	padding: 5px;
+	color: transparent;
+	background: url(../images/icones/edit.png) no-repeat center center;
+	cursor: pointer;
+	display: inline-block;
+	text-indent: -9999px;
+}
+#tableauUser .delete{
+	width: 29px;
+	height: 29px;
+	margin-left: 10px;
+	color: transparent;
+	background: url(../images/icones/suppr.png) no-repeat center center;
+	cursor: pointer;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+table.tableauModif{
+	width: 49%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.tableauHistorique{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.tableauHistorique .message{
+	width: 400px;
+	padding: 5px;
+}
+
+.form-table{
+	width: auto;
+	margin-bottom: 25px;
+}
+
+#submitMessage{
+	margin-bottom: 20px;
+}
+
+#wpsendsms_message{
+	padding: 5px;
+	margin: 15px 0 5px 0;
+	display: none;
+}
+#wpsendsms_message.updated,#wpsendsms_message.error { display: block; }
+
+#histoSelect{
+	margin-bottom: 20px;
+}
+
+.imgAddUser{
+	float: left;
+	width: 29px;
+	height: 29px;
+	background: url("../images/icones/ajoutPicto.png") no-repeat center center;
+}
+
+big {
+	font-size: 24px;
+	font-weight: bold;
+	vertical-align: -4px;
+}
+span.lienAjout {
+	font-size: 20px;
+	font-weight: bold;
+}
+span.lienAjout a {
+	color: #333;
+	font-size: 13px;
+	font-weight: normal;
+	vertical-align: 2px;
+}
+span.lienAjout a:hover {
+	font-weight: bold;
+}
+
+table.tableauModif label, table#tableauModif label {
+  width: 120px;
+  float: left;
+  font-weight: bold;
+}
+
+span.noUserSelected, span.noListSelected {
+  margin:5px 10px;
+  color:#646464;
+}
+
+label.simple {
+	float: none;
+	width:auto;
+}
+label.larger {
+  width: 270px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+input[type=text], textarea {
+  width: 360px;
+}
+input[type=text].users, input[type=text].lists {
+	width: 90%;
+}
+
+textarea.big {
+  width: 100%;
+}
+
+.hide { display:none; }
+
+/* -- START LINK USER ELEMENT -- */
+
+.userListOutput, .listListOutput{
+	height:200px;
+	/*width:170px;*/
+	width: 28%;
+	overflow:auto;
+	padding:3px 0;
+	margin:0 0 6px 0;
+	border: 1px solid #ddd;
+}
+
+.alignright{
+	margin-bottom: 10px;
+}
+
+.ui-icon{
+	float: left;
+}
+
+#massAction .checkAll, #massAction .uncheckAll{ font-size: 9px; cursor: pointer; }
+#massAction {
+	float:right;
+}
+.checkAll, .uncheckAll { font-size:9px;cursor:pointer; }
+
+div.blocBas p{
+	margin-top: 50px;
+}
+
+table th.big_title {
+  font-size: 20px;
+}
+
+#listeIndividus, #listeListe{
+	height:auto;
+	width:100% !important;
+	overflow:auto;
+}
+
+.selecteduserOP,.selectedlistOP {
+    background: none repeat scroll 0 0 #DEE7F8;
+    border: 1px solid #CAD8F3;
+    border-radius: 6px 6px 6px 6px;
+    padding: 1px 10px 2px 5px;
+	float: left;
+	margin: 0 0 3px 3px;
+}
+.selecteduserOP:hover,.selectedlistOP:hover {	
+	text-decoration: line-through; 
+	cursor: pointer; 
+}
+.deleteUserFromList {
+	background: url("../images/jquery_pics/ui-icons_222222_256x240.png") !important; 
+	background-position: -80px -127px !important; 
+	width:16px; 
+	height:16px;	
+}
+.deleteUserFromList:hover {
+	background: url("../images/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; 
+	background-position: -80px -127px !important; 
+	width:16px; 
+	height:16px;	
+}
+
+.searchUserToAffect {
+	width: 90%; 
+	color:#888888;	
+}
+.searchUserInput {	 
+	background: url("../images/jquery_pics/ui-icons_222222_256x240.png"); 
+	background-position: -160px -112px; 
+	width:16px; 
+	height:16px; 
+	margin:3px 5px 3px 0; 
+	float: left;
+}
+
+.userIsLinked {	
+	background: url("../images/jquery_pics/ui-icons_66cc33_256x240.png") !important; 
+	background-position: -64px -144px !important; 
+	width:16px; 
+	height:16px;
+}
+
+.userIsLinked:hover, .unlinkUser {
+	cursor: pointer !important; 
+	background: url("../images/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; 
+	background-position: -80px -128px !important; 
+	width:16px; 
+	height:16px;
+}
+
+.userIsNotLinked {
+	background: url("../images/jquery_pics/ui-icons_888888_256x240.png") !important; 
+	background-position: -96px -144px !important; 
+	width:16px; 
+	height:16px;
+}
+
+.userIsNotLinked:hover, .linkUser{	
+	background: url("../images/jquery_pics/ui-icons_888888_256x240.png") !important; 
+	background-position: -64px -144px !important; 
+	width:16px; 
+	height:16px; 
+	cursor: pointer !important;
+}
+
+.addLinkUserElement { padding:3px 0px; }
+.addUserButtonDTable { width:5%;	}
+.completeUserList { height: auto; max-height:193px; overflow:auto; }
+.completeUserList .odd, .completeUserList .even { cursor:pointer; }
+.checkAllListe, .uncheckAllListe{ font-size: 9px; cursor: pointer; }
+
+.ac_results li { color:#242424 !important; }
+.ac_over { background-color:#DDDDDD !important; }
+/* -- END LINK USER ELEMENT -- */
+
+/* -- START LINK List ELEMENT -- */
+
+.deleteListFromList {
+	background: url("../images/jquery_pics/ui-icons_222222_256x240.png") !important; 
+	background-position: -80px -127px !important; 
+	width:16px; 
+	height:16px;	
+}
+.deleteListFromList:hover{	
+	background: url("../images/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; 
+	background-position: -80px -127px !important; 
+	width:16px; 
+	height:16px;	
+}
+
+.searchListToAffect { width:90%; color:#888888; }
+.searchListInput {	 
+	background: url("../images/jquery_pics/ui-icons_222222_256x240.png"); 
+	background-position: -160px -112px; 
+	width:16px; 
+	height:16px; 
+	margin:3px 5px 3px 0;
+	float: left;
+}
+
+.listIsLinked {	
+	background: url("../images/jquery_pics/ui-icons_66cc33_256x240.png") !important; 
+	background-position: -64px -144px !important; 
+	width:16px; 
+	height:16px;
+}
+.listIsLinked:hover, .unlinkList {	
+	background: url("../images/jquery_pics/ui-icons_cd0a0a_256x240.png") !important; 
+	background-position: -80px -128px !important; 
+	width:16px; 
+	height:16px; 
+	cursor: pointer !important;
+}
+.listIsNotLinked {
+	background: url("../images/jquery_pics/ui-icons_888888_256x240.png") !important; 
+	background-position: -96px -144px !important; 
+	width:16px; 
+	height:16px;
+}
+.listIsNotLinked:hover, .linkList {	background: url("../images/jquery_pics/ui-icons_888888_256x240.png") !important; background-position: -64px -144px !important; width:16px; height:16px; cursor: pointer !important;}
+
+.addLinkListElement {	padding:3px 0px;	}
+.addListButtonDTable {	width:5%;	}
+.completeList {	height:auto; max-height:193px; overflow:auto; width:100%;	}
+.completeList .odd, .completeList .even {	cursor:pointer;	}
+
+
+#datepicker {
+	width:110px;
+	background:transparent;
+	border:none;
+	cursor:pointer;
+	font-weight: bold;
+}
+
+.ui-datepicker-current {
+	background: black;
+}
+
+.ac_results li{	color:#242424 !important;	}
+.ac_over {		background-color:#DDDDDD !important;	}
+/* -- END LINK USER ELEMENT -- */
+
+/* -- START USER IMPORT -- */
+.wpsendsms_import_user_easy_form_container{	width:99%; border-collapse:collapse; 	}
+.wpsendsms_import_user_easy_form{	width:99%; border-collapse:collapse; 	}
+.wpsendsms_import_user_easy_form td input[type=text], .wpsendsms_import_user_easy_form td select{	width:99%;	}
+.userLinesToCreate{	height:100%;	}
+#domaineMail{	width:65%;	}
+.user_rapid_import_button, .user_import_button{	width:60%; margin:12px auto; text-align:right;	}
+.user_import_container_opener{	background: url("../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: 0px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+.user_import_container_closer{	background: url("../medias/jquery_pics/ui-icons_222222_256x240.png") !important; background-position: -16px -211px !important; width:16px; height:16px; margin:3px 0px;	}
+#complementary_fieds .required{	color:#000000 !important; font-weight:normal !important;	}
+#complementary_fieds table{	width:100% !important;	}
+#complementary_fieds table th{	text-align:left !important; width:35%;	}
+#complementary_fieds_switcher{	font-weight:bold;	}
+.wpsendsms_import_user_main_info_name{	width:20%;	}
+.wpsendsms_import_user_main_info_input{	width:30%;	}
+.alignwpsendsms_user_immatriculation{	float:left; }
+.wpsendsms_import_user_additionnal_field{	font-size:9px;	}
+.wpsendsms_mandatory_fields_container{	vertical-align:top; width:50%;	}
+/* -- END USER IMPORT -- */
+
+/* -- START PERMISSION -- */
+.menuUserRight{	font-style:italic; font-size:9px; font-weight:bold;	}
+.sub_module{	margin-right:5px; float:left;	}
+.sub_module_name{	text-decoration:underline; font-weight:bold;	}
+.sub_module_content{	font-style:italic; }
+.sub_module_content label{	float:none;	}
+.permission_module_menu label{	float:none;	}
+.permissionGranted{	color:green;	}
+.permissionGrantedFromParent{	color:blue;	}
+.userForbiddenActionCursor{	cursor:url("../../medias/images/Icones/forbidden_vs.png"),auto;	}
+
+.wpsendsms_user_role_column_name{	width:60px !important;	}
+.wpsendsms_user_role_column_action{	width:60px !important; text-align:right !important;	}
+.wpsendsms_user_role_cell_action{	text-align:right !important;	}
+.wpsendsms_permission_category_name{ font-weight:bold; }
+.wpsendsms_permission_explanation{	margin:6px 0px 0px 0px; font-size:11px; font-style:italic;	}
+.wpsendsms_permission_check_all{	margin:6px 0px 0px 0px; font-size:10px; font-style:italic;	}
+.checkall, .uncheckall, .checkall_link, .uncheckall_link, .checkall_right, .uncheckall_right{	cursor:pointer;	}
+
+.rightColumn{	width:30px; text-align:center !important;	}
+.rightCell{	text-align:center;	}
+.userAffecte{	background-color:#99FF66;	font-weight:bold; }
+.userAffecteExplanation{	margin:6px 3px; padding:6px 0px; text-align:left; width:70%; }
+
+.userTableContainer {	height:200px !important; overflow:auto !important;	}
+#userPermissionManagerForm .userTableContainer {	height:auto !important; overflow:auto !important;	}
+
+.noRight{	text-decoration:line-through;	}
+.userRightMassManagement{	margin:18px 0px 0px 0px;	}
+
+.checkAll_user_, .uncheckAll_user_, .checkAll_user_affected_, .uncheckAll_user_affected_{ cursor:pointer; margin:0px 0px 6px;	}
+
+.userRightManagement_overflow{	overflow-y:scroll;	}
+
+#evaUserInformation div label		{	width:15em;	}
+/* -- END PERMISSION -- */
+
+/* css for timepicker */
+div#ui-datepicker-div { display: none; }
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+
+#namediv textarea {
+    width: 98%;
+}
